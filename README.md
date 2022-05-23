@@ -1,2 +1,3 @@
-# Ninja
-Ninja bot
+# Ninja Bot
+
+Free code of my bot
