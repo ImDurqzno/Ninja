@@ -1,0 +1,26 @@
+const { SlashCommandBuilder } = require("@discordjs/builders")
+const { Client, ChatInputCommandInteraction } = require("discord.js")
+const Discord = require("discord.js")
+const config = require('../config.json')
+
+module.exports = {
+    data: new SlashCommandBuilder()
+    .setName("")
+    .setDescription(""),
+    onlyDev: false,
+    maintenance: false,
+    memberPermissions: "None",
+    botPermissions: "None",
+
+    /**
+     * 
+     * @param {Client} client 
+     * @param {ChatInputCommandInteraction} interaction 
+     */
+
+    async run(client, interaction){
+
+       
+       
+    }
+}
